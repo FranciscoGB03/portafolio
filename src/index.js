@@ -1,3 +1,13 @@
+//|------Librerías------|//
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+//|------Css-------|//
+import '../src/styles/estilos.css';
+import '../src/styles/animate.css';
+import '../src/styles/mdb.css';
+//--------------React---------------//
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
