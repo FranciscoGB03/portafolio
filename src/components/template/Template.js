@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 
 function Template(props) {
 	return (
-		<div>
+		<div className="container-fluid">
 			<Navbar />
 			<div className="d-flex justify-content-start">
 				<Sidebar />

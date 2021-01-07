@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+//import './App.css';
 import ROUTES from './routes';
 
 function App() {
@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          {ROUTES.map((route) =>
-            <Route exact={route.exact}
+          {ROUTES.map((route,idx) =>
+            <Route key={idx}
+              exact={route.exact}
               path={route.path}
               component={route.component} />
           )}

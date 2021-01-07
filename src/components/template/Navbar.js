@@ -1,12 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
+import Logo from '../img/logo_trans.png';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<NavLink className="navbar-brand" to="/portafolio">
+		<nav className="navbar navbar-expand-lg navbarFormat">
+			<Link className="navbar-brand text-white" to="/portafolio">
 				Inicio
-			</NavLink>
+			</Link>
 			<button
 				className="navbar-toggler"
 				type="button"
