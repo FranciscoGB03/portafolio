@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavLink,Link } from 'react-router-dom';
-import Logo from '../img/logo_trans.png';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbarFormat">
+		<nav className="navbar navbar-expand-lg navbarFormat py-0">
 			<Link className="navbar-brand text-white" to="/portafolio">
 				Inicio
 			</Link>
@@ -20,15 +19,15 @@ const Navbar = () => {
 				<span className="navbar-toggler-icon"></span>
 			</button>
 			<div className="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul className="navbar-nav">
+				<ul className="navbar-nav ml-auto">
 					<li className="nav-item active">
-						<NavLink to="/portafolio/muro" className="nav-link">
-							Experiencia
+						<NavLink to="/portafolio/formacion" className="nav-link">
+							Formación Academica
 						</NavLink>
 					</li>
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/portafolio/configuracion">
-							Acerca de
+						<NavLink className="nav-link" to="/portafolio/experiencia">
+							Experiencia
 						</NavLink>
 					</li>
 				</ul>

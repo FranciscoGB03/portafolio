@@ -1,24 +1,62 @@
 .container-fluid{
     margin: 0 0;
     padding: 0%;
-    background-image: url('../components/img/fondo.jpg');
+    /*background-image: url('../components/img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;    
+    position: relative;
     width: 100%;
-    height:100vh;
+    height:100vh;*/
+    
+}
+.foto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
 }
 .navbarFormat{
-    background-color: none;
+    background-color: rgb(46, 64, 83 );    
 }
  .nav-link{
     text-decoration:none;
     color:white;
+    
  }
  .nav-link:hover{
      color:ivory;
-     background-color: black;
+     background-color: cornflowerblue;
  }
+.tarjeta-padre{
+    background-color: rgba(125, 129, 129, 0.664);    
+    width: 15rem;
+}
+.tarjeta-hijo{
+    color: white;
+    opacity: 1;
+}
+
+.sidebar{
+    width:10%;        
+}
+
+aside{
+    padding: 0 0;    
+    width: 100%;
+    height: 90vh;
+}
+.home{
+    margin:auto auto;
+}
+.pie{
+    background-color: rgb(46, 64, 83 );
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
 .w-30{
     width:30%;
 }
