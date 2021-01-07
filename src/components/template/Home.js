@@ -5,7 +5,7 @@ const Home =()=>{
     return(
         <Template>
 			<div className="text-center">
-				<h1>Bienvenido a mi protafolio creado con react</h1>				
+				<h1>Bienvenido a mi portafolio creado con react</h1>				
 			</div>
 		</Template>
     );
