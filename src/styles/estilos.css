@@ -37,7 +37,10 @@
     color: white;
     opacity: 1;
 }
-
+.titulo{
+    background-color: rgb(46, 64, 83 );
+    color:white;
+}
 .sidebar{
     width:10%;        
 }

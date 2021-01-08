@@ -23,6 +23,16 @@ const Home = () => {
 					<h1>Francisco González Bobadilla</h1>
 					<h3 className="">Ingeniero en Tecnologías de la Información y Comunicaciones</h3>
 					<h5>(Título en proceso)</h5>
+					<div className="card mt-5">
+						<div className="card-body p-0">
+							<h5 className="card-header titulo text-center text-wrap">Objetivo Profesional</h5>
+							<ul>
+								<li>
+									Mi objetivo es formar parte de un equipo de trabajo, donde el logro de cada uno sea reconocido, y el ambiente de trabajo sea óptimo y agradable, así como crecer profesionalmente y mostrar mi compromiso con la empresa en la que esté laborando.
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 				<div className="d-flex justify-content-aroud flex-wrap mb-5">
 					<Contenedor titulo="Valores" valores={valores} />
