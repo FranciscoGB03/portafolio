@@ -6,7 +6,9 @@ import Footer from './Footer';
 function Template(props) {
 	return (
 		<div className="container-fluid">
+			<div className="mb-5">
 			<Navbar />
+			</div>
 			<div className="ml-2">
 				{/*<Sidebar />*/}
 				{props.children}

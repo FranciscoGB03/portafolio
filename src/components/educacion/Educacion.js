@@ -29,7 +29,7 @@ const Educacion = () => {
                             curso="Curso: Java Programming: Solving Problems with Software (Con honores)"
                             periodo="Año: 2020"
                             enlace="https://coursera.org/share/361b1a74eb9a481f0dc31e4e88886807" />
-                        <Contenido escuela=" Oscars International (Dublin, Irlanda)"
+                        <Contenido escuela=" Oscars International (Dublín, Irlanda)"
                             curso="Curso: Perfeccionamiento de la lengua inglesa"
                             periodo="Periodo: Julio-Agosto, 2019"
                             enlace="https://drive.google.com/file/d/1fln8BLxVELWGl8hAyqzXTSdQxHORQEkK/view?usp=sharing" />
@@ -51,7 +51,7 @@ const Educacion = () => {
     );
 }
 
-const Titulo = ({ titulo }) => {
+export const Titulo = ({ titulo }) => {
     return (
         <div className="my-3 text-center">
             <h1>{titulo}</h1>

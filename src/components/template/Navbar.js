@@ -4,7 +4,7 @@ import {BsList} from 'react-icons/bs';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-md navbarFormat py-0">
+		<nav className="navbar navbar-expand-md navbarFormat py-0 fixed-top">
 			<Link className="navbar-brand text-white" to="/portafolio">
 				Inicio
 			</Link>

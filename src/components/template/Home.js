@@ -34,7 +34,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-				<div className="d-flex justify-content-aroud flex-wrap mb-5">
+				<div className="d-flex justify-content-between flex-wrap mb-5">
 					<Contenedor titulo="Valores" valores={valores} />
 					<Contenedor titulo="Pasatiempos" valores={pasatiempos} />
 					<Contenedor titulo="Idiomas" valores={idiomas} />
