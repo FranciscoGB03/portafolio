@@ -1,27 +1,20 @@
 import React from 'react';
 import { NavLink,Link } from 'react-router-dom';
+import {BsList} from 'react-icons/bs';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbarFormat py-0">
+		<nav className="navbar navbar-expand-md navbarFormat py-0">
 			<Link className="navbar-brand text-white" to="/portafolio">
 				Inicio
 			</Link>
-			<button
-				className="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNavDropdown"
-				aria-controls="navbarNavDropdown"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span className="navbar-toggler-icon"></span>
+			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span className="text-white"><BsList/></span>
 			</button>
-			<div className="collapse navbar-collapse" id="navbarNavDropdown">
+			<div className="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item active">
-						<NavLink to="/portafolio/formacion" className="nav-link">
+						<NavLink className="nav-link" to="/portafolio/formacion" >
 							Formación Academica
 						</NavLink>
 					</li>
