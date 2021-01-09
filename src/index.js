@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../src/styles/estilos.css';
 import '../src/styles/animate.css';
 import '../src/styles/mdb.css';
+import '../src/styles/redes.css';
 //--------------React---------------//
 import React from 'react';
 import ReactDOM from 'react-dom';

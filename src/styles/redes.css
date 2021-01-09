@@ -1,0 +1,35 @@
+.container-icons{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+
+.row-icon{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+}
+.icon-red{
+    font-size: 40px;
+}
+.icono{
+    font-size: 50px;
+}
+
+.container-icons:hover .row-icon{
+    opacity: 1;
+}
+.icon1{
+    transform: translate(50px,-48px);
+}
+.icon2{
+    transform: translate(50px,-90px);
+}
+.icon3{
+    transform: translate(-105px,-128px);
+}

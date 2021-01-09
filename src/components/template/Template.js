@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import RedesSociales from './RedesSociales';
 //import Sidebar from './Sidebar';
 
 function Template(props) {
@@ -13,6 +14,7 @@ function Template(props) {
 				{/*<Sidebar />*/}
 				{props.children}
 			</div>
+			<RedesSociales/>
 			<Footer />
 		</div>
 	);
