@@ -9,7 +9,7 @@ const Home = () => {
 
 	return (
 		<Template>
-			<div className="container mt-5">
+			<div className="jumbotron">
 				<div className="">
 					<div className="d-flex justify-content-center">
 						<img
@@ -19,12 +19,12 @@ const Home = () => {
 						/>
 					</div>
 				</div>
-				<div className="mr-5 mt-5 text-center">
+				<div className="mt-3 text-center">
 					<h1>Francisco González Bobadilla</h1>
 					<h3 className="">Ingeniero en Tecnologías de la Información y Comunicaciones</h3>
 					<h5>(Título en proceso)</h5>
-					<div className="card mt-5">
-						<div className="card-body p-0">
+					<div className="card mt-5 tarjeta-objetivo">
+						<div className="card-body p-0 tarjeta-hijo">
 							<h5 className="card-header titulo text-center text-wrap">Objetivo Profesional</h5>
 							<ul>
 								<li>
@@ -34,7 +34,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-				<div className="d-flex justify-content-between flex-wrap mb-5">
+				<div className="d-flex justify-content-around flex-wrap mb-5">
 					<Contenedor titulo="Valores" valores={valores} />
 					<Contenedor titulo="Pasatiempos" valores={pasatiempos} />
 					<Contenedor titulo="Idiomas" valores={idiomas} />

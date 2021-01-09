@@ -23,6 +23,11 @@ const Navbar = () => {
 							Experiencia
 						</NavLink>
 					</li>
+					<li className="nav-item">
+						<NavLink className="nav-link" to="/portafolio/habilidades">
+							Habilidades
+						</NavLink>
+					</li>
 				</ul>
 			</div>
 		</nav>

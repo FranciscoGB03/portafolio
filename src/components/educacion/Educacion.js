@@ -4,23 +4,23 @@ import Template from '../template/Template';
 const Educacion = () => {
     return (
         <Template>
-            <div className="container mt-3">
+            <div className="jumbotron">
+                <Titulo titulo="Formación Académica" />
+                <hr className="w-100"/>
                 <div className="">
-                    <Titulo titulo="Formación Académica" />
-                    <div className="">
-                        <Contenido escuela="Instituto Tecnológico de Toluca"
-                            curso="Licenciatura: Ingeniería en Tecnologías de la Información y Comunicaciones"
-                            periodo="Periodo: 2015-2020 (Título en proceso)" />
-                        <Contenido escuela="Capacítate para el trabajo, Fundación Carlos Slim"
-                            curso="Técnico en Electrónica"
-                            periodo="Año: 2020"
-                            enlace="https://capacitateparaelempleo.org/verifica/nqi3lh7ec/"
-                        />
-                    </div>
+                    <Contenido escuela="Instituto Tecnológico de Toluca"
+                        curso="Licenciatura: Ingeniería en Tecnologías de la Información y Comunicaciones"
+                        periodo="Periodo: 2015-2020 (Título en proceso)" />
+                    <Contenido escuela="Capacítate para el trabajo, Fundación Carlos Slim"
+                        curso="Técnico en Electrónica"
+                        periodo="Año: 2020"
+                        enlace="https://capacitateparaelempleo.org/verifica/nqi3lh7ec/"
+                    />
                 </div>
-                <div className="mx-3">
+                <div className="">
                     <Titulo titulo="Formación Complementaria" />
-                    <div className="">
+                    <hr className="w-100"/>
+                    <div className="mb-5">
                         <Contenido escuela=" Beca de Santander, ANUIES"
                             curso="Curso: Habilidades y competencias clave para el mundo profesional"
                             periodo="Septiembre 2020"
@@ -43,9 +43,6 @@ const Educacion = () => {
                             enlace="https://www.youracclaim.com/badges/983bb484-950f-407b-bdec-74356f48d793/public_url" />
                     </div>
                 </div>
-                <div className="d-flex justify-content-aroud flex-wrap mb-5">
-
-                </div>
             </div>
         </Template>
     );
@@ -53,21 +50,21 @@ const Educacion = () => {
 
 export const Titulo = ({ titulo }) => {
     return (
-        <div className="my-3 text-center">
+        <div className="mb-5 text-center">
             <h1>{titulo}</h1>
         </div>
     );
 }
 
 const Contenido = ({ escuela, curso, periodo, enlace = '' }) => <div className="my-2">
-    <div className="card py-0">
-        <div className="card-body p-0">
+    <div className="card tarjeta-objetivo py-0">
+        <div className="card-body text-white p-0">
             <h5 className="card-header titulo text-center">{escuela}</h5>
             <div className="mx-1 d-flex flex-column">
                 <span className="card-text">{curso}</span>
                 <span className="card-text">{periodo}</span>
                 {enlace !== '' ? <span className="card-text text-wrap">{`Enlace: `}
-                    <a href={enlace} target="_blank" rel="noopener noreferrer">
+                    <a href={enlace} target="_blank" rel="noopener noreferrer" className="enlace">
                         {enlace}</a>
                 </span> : ''}
             </div>
