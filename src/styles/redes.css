@@ -13,23 +13,30 @@
     display: flex;
     justify-content: flex-end;
     opacity: 0;
+    transition: all 300ms;
 }
+
 .icon-red{
-    font-size: 40px;
+    font-size: 35px;
 }
 .icono{
     font-size: 50px;
+    transition: all 300ms;
+    color:rgba(46, 64, 83); 
 }
 
 .container-icons:hover .row-icon{
     opacity: 1;
 }
+.container-icons:hover .icono{
+    transform:rotate(180deg);
+}
 .icon1{
-    transform: translate(50px,-48px);
+    transform: translate(40px,-48px);
 }
 .icon2{
-    transform: translate(50px,-90px);
+    transform: translate(40px,-90px);
 }
 .icon3{
-    transform: translate(-105px,-128px);
+    transform: translate(40px,-128px);
 }

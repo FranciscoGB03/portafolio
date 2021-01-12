@@ -6,10 +6,10 @@ const RedesSociales = () => {
     return (
         <>
             <div className="container-icons">
-                <div className="row-icon icon1"><a className="row-icon" href="https://www.facebook.com/francisco.gonzalez.bobadilla" target="_blank" rel="noopener noreferrer"><h4 className="mt-4 mr-1">Facebook</h4><span className="icon-red"><FaFacebookSquare /></span></a></div>
-                <div className="row-icon icon2"><a className="row-icon" href="https://www.youtube.com/c/franciscogonzalezbobadilla/videos" target="_blank" rel="noopener noreferrer"><h4 className="mt-4 mr-1">Youtube</h4><span className="icon-red"><FaYoutube /></span></a></div>
-                <div className="row-icon icon3"><h4 className="mt-4 mr-1">WhatsApp</h4><span className="icon-red"><FaWhatsappSquare /></span></div>
-                <h2 className="icono"><AiOutlinePlusCircle/></h2>
+                <div className="row-icon icon1"><a className="row-icon" href="https://www.facebook.com/francisco.gonzalez.bobadilla" target="_blank" rel="noopener noreferrer"><span className="icon-red text-primary"><FaFacebookSquare /></span></a></div>
+                <div className="row-icon icon2"><a className="row-icon" href="https://www.youtube.com/c/franciscogonzalezbobadilla/videos" target="_blank" rel="noopener noreferrer"><span className="icon-red text-danger"><FaYoutube /></span></a></div>
+                <div className="row-icon icon3"><a className="row-icon" href="https://api.whatsapp.com/send?phone=527131157360" target="_blank" rel="noopener noreferrer"><span className="icon-red text-success"><FaWhatsappSquare /></span></a></div>
+                <h2 className="icono mt-2"><AiOutlinePlusCircle/></h2>
             </div>
         </>
     );
