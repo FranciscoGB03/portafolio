@@ -22,7 +22,6 @@ const Home = () => {
 				<div className="mt-3 text-center">
 					<h1>Francisco González Bobadilla</h1>
 					<h3 className="">Ingeniero en Tecnologías de la Información y Comunicaciones</h3>
-					<h5>(Título en proceso)</h5>
 					<div className="card mt-5 tarjeta-objetivo">
 						<div className="card-body p-0 tarjeta-hijo">
 							<h5 className="card-header titulo text-center text-wrap">Objetivo Profesional</h5>

@@ -10,7 +10,7 @@ const Educacion = () => {
                 <div className="">
                     <Contenido escuela="Instituto Tecnológico de Toluca"
                         curso="Licenciatura: Ingeniería en Tecnologías de la Información y Comunicaciones"
-                        periodo="Periodo: 2015-2020 (Título en proceso)" />
+                        periodo="Periodo: 2015-2020" />
                     <Contenido escuela="Capacítate para el trabajo, Fundación Carlos Slim"
                         curso="Técnico en Electrónica"
                         periodo="Año: 2020"
@@ -21,6 +21,10 @@ const Educacion = () => {
                     <Titulo titulo="Formación Complementaria" />
                     <hr className="w-100"/>
                     <div className="mb-5">
+                        <Contenido escuela="Coursera"
+                                   curso="Curso: Engineering Project Management: Scope, Time and Cost Management"
+                                   periodo="Año: 2021"
+                                   enlace="https://www.coursera.org/account/accomplishments/verify/FSDP8DPU4JC4" />
                         <Contenido escuela=" Beca de Santander, ANUIES"
                             curso="Curso: Habilidades y competencias clave para el mundo profesional"
                             periodo="Septiembre 2020"

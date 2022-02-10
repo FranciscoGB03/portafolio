@@ -5,7 +5,7 @@ import Template from '../template/Template';
 const Habilidades = () => {
     return (
         <Template>
-            <div className="jumbotron m-0">
+            <div className="jumbotron m-0 mb-5">
                 <Titulo titulo={"Habilidades"} />
                 <hr className="text-center w-80" />
                 <div className="d-flex justify-content-center flex-wrap">

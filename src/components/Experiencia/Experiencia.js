@@ -5,17 +5,17 @@ import { Titulo } from '../educacion/Educacion';
 const Experiencia = () => {
     return (
         <Template>
-            <div className="jumbotron m-0">
+            <div className="jumbotron m-0 mb-3">
                 <Titulo titulo="Experiencia laboral" />
                 <hr className="text-center w-75" />
                 <div className="d-flex justify-content-around flex-wrap">
-                    <Contenido titulo="AYAL Soluciones Tecnológicas de Innovación S.A.S. de C.V."
-                        periodo="Periodo: 2018-Actualidad"
-                        puesto="Puesto: Desarrollador web"
-                        actividades={true}
-                        acciones={['Analisis, Diseño, Desarrollo, Pruebas e Implementacion de aplicaciones.',
-                            'Consultas a bases de datos',
-                            'Configuración de servidores linux']} />
+                    <Contenido titulo="Gelita México, S. De R.L. De C.V."
+                               periodo="Periodo: 2021-Actualidad"
+                               puesto="Puesto: Full Stack Developer"
+                               actividades={true}
+                               acciones={['Desarrollo de aplicaciones a la medida que satisfagan las necesidades de las diferentes áreas de la empresa, por lo que se require:',
+                               'Levantamiento de requerimientos, análisis, diseño, codificación, pruebas y mantenimiento a las diferentes aplicaciones.',
+                               'Soporte a usuarios en cuanto el uso de aplicaciones.','Configuración de nuevos equipos.']} />
                     <Contenido titulo="Gelita México, S. De R.L. De C.V."
                         periodo="Periodo: 2019-2020"
                         puesto="Puesto: Desarrollador web (Residencia)"
@@ -23,6 +23,13 @@ const Experiencia = () => {
                         acciones={['WFPEDIDOS: Aplicación web para el levantamiento de pedidos de productos que genera la empresa.',
                             'CONTROL_PROCESO: Aplicación web para registrar los diferentes datos obtenidos durante la producción de grenetina.',
                             'Configuración de equipos Raspberry.']} />
+                    <Contenido titulo="AYAL Soluciones Tecnológicas de Innovación S.A.S. de C.V."
+                               periodo="Periodo: 2018-2020"
+                               puesto="Puesto: Desarrollador web"
+                               actividades={true}
+                               acciones={['Analisis, Diseño, Desarrollo, Pruebas e Implementacion de aplicaciones.',
+                                   'Consultas a bases de datos',
+                                   'Configuración de servidores linux']} />
                     <Contenido titulo="Instituto Tecnológico de Toluca"
                         periodo="Periodo: 2018-2019"
                         puesto="Puesto: Soporte técnico. (Servicio Social)"
